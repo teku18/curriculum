@@ -7,3 +7,6 @@ class index(TemplateView):
 
 class prueba(TemplateView):
     template_name = 'prueba.html'
+
+class inicio(TemplateView):
+    template_name = 'index.html'
